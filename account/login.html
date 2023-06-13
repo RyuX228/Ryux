@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../picture/ryux_1.ico" />
+    <title>RyuX</title>
+</head>
+<body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='../chat/chat.html'>Chat</a></li>
+          <li><a href='https://instagram.com/muhraihan002_'>Contact Developer</a></li>
+        </ul>
+    </nav>
+    <header class="welcome-text">
+        <article>
+            <p>Welcome back sir, we need verified if you are one of our admin</p>
+            <p>please input your username and password below here</p>
+        </article>
+    </header>
+    <div class="login">
+        <input id="user" type="text" placeholder="enter username">
+        <input id="password" type="password" placeholder="enter password">
+        <button id="enter">submit</button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup()">&times;</span>
+        	<h2 id="title-message"></h2>
+            <p id="message-about"></p>
+    	</div>
+	</div>
+    <footer>
+        <div class="footer-box">
+          <p><span id="footer-text">Email: muhraihannurtaufiq@gmail.com</span></p>  
+        </div>
+    </footer>
+    <script type="module" src="login.js"></script>
+</body>
+</html>
